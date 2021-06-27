@@ -1,0 +1,183 @@
+
+/* NAV */
+
+@media (max-width: 863px) { 
+    .menu {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}
+
+@media (max-width: 675px) { 
+    .links {
+        display: none;
+    }
+}
+
+@media (max-width: 863px) and (min-width: 676px) { 
+    .links {
+       display: none;
+        
+    }
+
+    .nav-main a {
+        margin-left: 0px;
+        font-size: 1.2rem;
+    }
+
+    .white-nav,
+    .black-nav {
+        padding: 20px 20px;
+    }
+
+
+    hr {
+        width: 130%;
+        transform: translateX(-20%);
+    }
+ }
+
+ 
+@media (max-width: 400px) { 
+    .nav-main a {
+        margin-left: 0px;
+        font-size: 0.8rem;
+    }
+
+ }
+
+
+
+
+/* HEADER */
+ @media (max-width: 1080px) { 
+  .header {
+      background-color: transparent;
+  }
+
+  .promo-header {
+    background-color: #5ea745;
+    padding: 50px 0px;
+  }
+ }
+
+ @media (max-width: 735px) { 
+    .header {
+        background-color: transparent;
+    }
+  
+    .promo-header {
+      background-color: #5ea745;
+      padding: 50px 50px;
+    }
+
+    .header h1 {
+        font-size: 4rem;
+    }
+   }
+
+   @media (max-width: 524px) { 
+    .promo-container {
+        line-height: 70px;
+    }
+
+    .header h1 {
+        font-size: 3rem;
+    }
+
+    .promo-info {
+        font-size: 1rem;
+    }
+
+    hr {
+        width: 100%;
+        transform: translateX(0%);
+    }
+
+    .form {
+        width: 350px;
+    }
+   }
+
+
+   @media (max-width: 400px) { 
+    .promo-container {
+        line-height: 60px;
+    }
+
+    .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .promo-info {
+        font-size: 0.9rem;
+    }
+
+    span {
+        font-size: 1.1rem
+    }
+
+    hr {
+        width: 100%;
+        transform: translateX(0%);
+    }
+
+    .form {
+        width: 250px;
+    }
+
+   }
+
+ @media (max-width: 655px) { 
+    .thanks-title {
+        font-size: 5rem;
+    }
+  
+    .entered {
+      font-size: 1.6rem;
+      width: 80%;
+    }
+
+    .check-location {
+        font-size: 1.4rem;
+        width: 60%;
+    }
+   }
+
+   @media (max-width: 495px) { 
+    .thanks-title {
+        font-size: 3.5rem;
+    }
+  
+    .entered {
+      font-size: 1.3rem;
+      width: 80%;
+    }
+
+    .check-location {
+        font-size: 1.2rem;
+        width: 60%;
+    }
+
+    .header-button:nth-child(1) {
+        margin-right: 20px;
+    }
+   }
+
+
+
+
+   /* FOOTER */
+
+   @media (max-width: 563px) { 
+    .footer-container {
+        justify-content: flex-start;
+    }
+
+    .statement-warning {
+        width: 80%;
+    }
+}
+   

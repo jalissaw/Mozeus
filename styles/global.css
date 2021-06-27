@@ -1,0 +1,224 @@
+
+:root {
+    --text-color: #fff;
+    --black-nav-text-color: #fff;
+    --white-nav-text-color: #404041;
+    --second-color: #ff7;
+    --black-bg-color: #404041;
+    --header-color: #5ea745;
+    --border-color: #404041;
+    --border-radius: 10px;
+    --button-color: #3354a1
+  }
+
+
+  /* || MENU NAV */
+
+.menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    top: 29px;
+    left: 10px;
+    height: 60px;
+    width: 60px;
+    z-index: 9;
+  }
+
+  .toggle {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    z-index: 10;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.hamburger {
+    margin: auto 0;
+    height: 3px;
+    width: 40px;
+    background: var(--header-color)
+}
+
+.hamburger:hover {
+    cursor: pointer;
+ }
+
+.hamburger::before {
+    content: '';
+    position: absolute; 
+    top: 38px;
+    height: 3px;
+    width: 40px;
+    background: var(--header-color);
+    
+}
+
+.hamburger::after {
+    content: '';
+    position: absolute; 
+    top: 20px;
+    height: 3px;
+    width: 40px;
+    background: var(--header-color);
+}
+
+.show-nav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background: white;
+    transition: ease 0.4s all;
+    z-index: 4;
+    transform: translateX(-100%)
+}
+
+.showlinks-black, 
+.showlinks-white {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.show-nav a {
+    color: var(--header-color);
+    font-size: 1.5rem;
+    margin: 15px 0px;
+}
+
+.open {
+    transform: translateX(0%)
+}
+
+
+
+/* || NAV */
+
+.nav-main a {
+    font-size: 1.2rem;
+}
+
+.nav-main a:nth-child(0) {
+    margin-left: 0px;
+}
+
+.white-nav, 
+.black-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.black-nav {
+    background-color: var(--black-bg-color);
+    padding: 20px 0px;
+    color: var(--black-nav-text-color);
+}
+
+.black-link, 
+.white-link {
+    margin-left: 30px;
+}
+
+.black-nav a {
+    color: var(--black-nav-text-color);
+}
+
+.white-nav a {
+    color: var(--white-nav-text-color);
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+}
+
+.cricket-logo {
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.links {
+    display: flex;
+    max-width: 1024px;
+}
+
+
+/* || FOOTER */
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: 'SimplyCricket-Regular';
+    background: var(--black-bg-color);
+    padding: 50px 0px;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.statement-container, 
+.footer-nav, 
+.social {
+    padding: 20px;
+}
+
+.statement-warning {
+    font-size: 0.9rem;
+    width: 450px;
+}
+
+.footer-nav .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav .links a {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.footer-nav .links li:nth-child(2) {
+  margin: 15px 0px;
+}
+
+.footer-nav a {
+    color: var(--text-color);
+    text-decoration: underline;
+    font-size: 1rem;
+    margin-left: 0;
+}
+
+.social-media-container {
+    display: flex;
+    margin-top: 15px;
+}
+
+.join {
+    margin-right: 10px;
+}
+
+.social-links {
+    margin-left: 15px;
+}
+
+.socials {
+    margin-left: 15px;
+}
+
+.social-logo {
+    height: 20px;
+    width: 20px;
+}

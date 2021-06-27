@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'SimplyCricket-Regular';
+    src: url('/fonts/SimplyCricket-Book\\(1\).eot') format('embedded-opentype');
+    src: url('/fonts/SimplyCricket-Book.otf');
+    src: url('/fonts/SimplyCricket-Book.ttf') format('truetype');
+}
+
+
+
+
+/* || VARIABLES */
+
+:root {
+    --text-color: #fff;
+    --black-nav-text-color: #fff;
+    --white-nav-text-color: #404041;
+    --second-color: #ff7;
+    --black-bg-color: #404041;
+    --header-color: #5ea745;
+    --border-color: #404041;
+    --border-radius: 10px;
+    --button-color: #3354a1
+  }
+
+
+/* || HEADER */
+
+.header {
+    background-color: var(--header-color);
+}
+
+.promo-container{
+    display: flex;
+    line-height: 90px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.promo-img {
+    flex: 1 1 400px;
+}
+
+.promo-pic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.promo-header {
+    flex: 1 1 300px;
+    color: var(--text-color);
+    width: 100%;
+}
+
+.promo-info {
+    line-height: 30px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    border-top: white 5px solid;
+    border-bottom: white 5px solid;
+    padding: 12px;
+}
+
+sup {
+    font-size: 3rem;
+}
+
+
+/* || MAIN */
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.sign-to-win-container {
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-top: 50px;
+    width: 450px;
+}
+
+.form input {
+    width: 100%;
+}
+
+.first-inputs {
+    margin-top: 10px;
+}
+
+.rules-container {
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.rule-title {
+    color: var(--header-color);
+    margin-bottom: 10px;
+}
+
+.official-rules {
+    padding: 5px 10px;
+}
+
+.scroll-rules {
+    height: 100px;
+    overflow: scroll;
+    font-size: 0.65rem;
+    overflow-x: hidden;
+    border: solid 0.5px var(--border-color);
+    width: 100%;
+    border-radius: var(--border-radius);
+    
+}
+
+.scroll-rules::-webkit-scrollbar {
+    display: block;
+    width: 5px;
+    height: 10em;
+    border-radius: 50px;
+    margin-right: 100px;
+    
+}
+
+.scroll-rules::-webkit-scrollbar-track {
+    display: block;
+    background: transparent;
+    border-radius: 20px;
+    height: 20px;
+    padding: 20px;
+    margin-right: -20px;
+    
+}
+
+.scroll-rules::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 2px;
+    background: #5ea745;
+    border: 3px solid transparent
+}
+
+.checked-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.second-checked {
+    margin-top: 10px;
+}
+
+.checked label {
+    font-size: 0.8rem;
+}
+
+input[type=checkbox] {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    background-color: var(--button-color);
+}
+
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+select {
+    border-radius: var(--border-radius);
+    height: 45px;
+}
+
+
+.btn {
+    display: inline-block;
+    width: 100px;
+    background-color: var(--button-color);
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 10px;
+    color: var(--black-nav-text-color)
+}
+
+
+/* || HEADER- THANKS */
+.thanks-main {
+    display: flex;
+}
+
+.img-thanks-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: url('/imgs/thanksBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color: var(--text-color);
+    padding: 80px 0px;
+}
+
+.thanks-title {
+    font-size: 7rem;
+    text-align: center;
+}
+
+.entered,
+.check-location {
+    text-align: center;
+}
+
+.entered {
+    width: 60%;
+    font-size: 2rem;
+    font-family: 'SimplyCricket-DemiBold';
+}
+
+.check-location {
+    width: 40%;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    font-family: 'SimplyCricket-Regular';
+}
+
+.header-button-container {
+    margin-top: 75px;
+}
+
+.header-button {
+    padding: 15px;
+    width: 150px;
+    background-color: var(--button-color);
+}
+
+.header-button:nth-child(1) {
+    margin-right: 75px;
+}
+
+.header-button a {
+    padding: 10px;
+    color: var(--black-nav-text-color);
+}
+
+.promo-poster {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

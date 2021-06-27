@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SimplyCricket-Regular';
+}
+
+@font-face {
+    font-family: 'SimplyCricket-Bold';
+    src: url('/fonts/SimplyCricket-Bold\\(1\).eot') format('embedded-opentype');
+    src: url('/fonts/SimplyCricket-Bold.otf');
+    src: url('/fonts/SimplyCricket-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SimplyCricket-Regular';
+    src: url('/fonts/SimplyCricket-Book\\(1\).eot') format('embedded-opentype');
+    src: url('/fonts/SimplyCricket-Book.otf');
+    src: url('/fonts/SimplyCricket-Book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SimplyCricket-DemiBold';
+    src: url('/fonts/SimplyCricket-Demibold\\(1\).eot') format('embedded-opentype');
+    src: url('/fonts/SimplyCricket-Demibold.otf');
+    src: url('/fonts/SimplyCricket-Demibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SimplyCricket-Medium';
+    src: url('/fonts/SimplyCricket-Medium\\(1\).eot') format('embedded-opentype');
+    src: url('/fonts/SimplyCricket-Medium.otf');
+    src: url('/fonts/SimplyCricket-Medium.ttf') format('truetype');
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'SimplyCricket-Demibold';
+    transition: ease 0.4s;
+}
+
+li {
+    
+    display: inline-block;
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: 'SimplyCricket-Bold';
+}
+
+h2 {
+    font-family: 'SimplyCricket-Bold';
+}
+
+span {
+    font-size: 2rem;
+    font-family: 'SimplyCricket-Regular';
+}
+
+p {
+    font-family: 'SimplyCricket-Demibold';
+}
+
+input {
+    border-radius: 10px;
+    height: 35px;
+    border: 0.5px solid rgb(177, 177, 177);
+}
+
+
+button {
+    border-radius: 10px;
+    border: none;
+    font-family: 'SimplyCricket-Demibold';
+    transition: ease 0.4s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+hr {
+    width: 150%;
+    margin-top: 35px;
+    transform: translateX(-15%);
+}
